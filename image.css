@@ -1,0 +1,92 @@
+/* image.css */
+
+/* Apply styles to the entire component container */
+.App {
+  position: relative; /* Set position to relative for absolute positioning of loading image */
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Style for the loading page */
+/* Loading page styles */
+.loading-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.loading-page h1 {
+  color: #333333;
+}
+
+.loading-page img {
+  width: 80%; /* Adjust the width of the loading image as needed */
+  height: 80%; /* Adjust the height of the loading image as needed */
+}
+
+.loading-page p {
+  color: #555555;
+}
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555555;
+}
+
+select,
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+p {
+  color: #ff3333;
+  margin: 0;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Logout button styles */
+button#logoutButton {
+  background-color: #ff9999; /* Low red color */
+  color: white;
+  margin-top: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Darker shade on hover */
+button#logoutButton:hover {
+  background-color: #d32f2f;
+}
